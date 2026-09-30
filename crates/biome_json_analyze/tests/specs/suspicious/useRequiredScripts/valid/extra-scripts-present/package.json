@@ -2,9 +2,9 @@
   "name": "test-package",
   "scripts": {
     "test": "vitest",
-    "build": "tsc",
+    "build": "node init && tsc",
     "lint": "biome lint",
-    "dev": "vite",
+    "dev": "node init && vite",
     "preview": "vite preview"
   }
 }
