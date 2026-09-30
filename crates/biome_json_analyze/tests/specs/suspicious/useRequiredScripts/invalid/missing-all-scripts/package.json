@@ -1,6 +1,6 @@
 {
   "name": "test-package",
   "scripts": {
-    "start": "node index.js"
+    "start": "node init && node index.js"
   }
 }

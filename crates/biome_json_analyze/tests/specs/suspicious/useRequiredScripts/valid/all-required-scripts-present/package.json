@@ -2,7 +2,7 @@
   "name": "test-package",
   "scripts": {
     "test": "vitest",
-    "build": "tsc",
+    "build": "node init && tsc",
     "lint": "biome lint"
   }
 }

@@ -6,7 +6,7 @@
     "test": "vitest",
     "test:ci": "pnpm build && vitest run",
     "tsc": "tsc --noEmit",
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "files": [
     "dist/",

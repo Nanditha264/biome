@@ -1,7 +1,6 @@
 .DS_Store
 Profile-*.json
 # Editor configuration
-.vscode/*
 .idea
 .vs
 .zed/*
@@ -35,3 +34,4 @@ dhat-heap.json
 !/crates/biome_json_formatter/tests/specs/prettier/**/*
 !/crates/biome_css_formatter/tests/specs/prettier/**/*
 !/crates/biome_graphql_formatter/tests/specs/prettier/**/*
+config.bat
